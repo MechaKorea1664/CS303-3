@@ -9,7 +9,7 @@ struct Node {
 	Node* nextptr;
 };
 
-template<typename T>
+template <typename T>
 class Stack {
 private:
 	Node* head = nullptr;

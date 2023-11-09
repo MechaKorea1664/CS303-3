@@ -3,38 +3,69 @@
 
 using namespace std;
 
-string convert_infix_to_postfix(string inFixExpression, bool isInBracket, char bracket, int& i) {
-	Stack<string> numStack, opStack;
-	string left = "", right = "", op = "", op2 = "", result = "";
+string convert_infix_to_postfix(Stack<char> inFixExpression, bool isInBracket, char bracket) {
+	Stack<string> numStack;
+	Stack<char> opStack;
+	string left = "", right = "", result = "";
+		
+	int opLevel_Current, opLevel_Ahead;
 
 	bool inBracket = isInBracket;
 	bool isLeftComplete = false;
 
-	char opList[5] = { '+','-','*','/','%' };
 	char currBracket = bracket;
+	char op;
 
-	int length_inFixExpression = inFixExpression.length();
-
-	for (; i < length_inFixExpression; i++) {
-		switch (check_valid_bracket_and_update_bracket_level(currBracket, inFixExpression[i])) {
-		case 0: {
+	while (!inFixExpression.empty()) {
+		opLevel_Current = check_for_operator_level(inFixExpression.top());
+		switch (check_valid_bracket_and_update_bracket_level(currBracket, inFixExpression.top())) {
+		case 0: { // invalid bracket.
 			throw invalid_argument("Error: Bracket misorder and/or mismatch.");
 			break;
 		}
-		case 1: {
+		case 1: { // in bracket, Closing bracket / same level.
 			i++;
 			return result;
-			break; // just in case, might remove later.
 		}
-		case 2: {
-			i++;
-			if (left == "") left = convert_infix_to_postfix(inFixExpression, inBracket, i);
-			else if (right == "") right = convert_infix_to_postfix(inFixExpression, inBracket, i);
+		case 2: { // in bracket, opening bracket / lower level.
+			//if (left == "") left = convert_infix_to_postfix(inFixExpression, inBracket, i);
+			//else if (right == "") right = convert_infix_to_postfix(inFixExpression, inBracket, i);
+			opLevel_Ahead = check_for_operator_level(inFixExpression.top());
+			break;
 		}
-		case 3: {
-			currBracket = inFixExpression[i];
+		case 3: { // NOT in bracket, opening bracket.
+			currBracket = inFixExpression.top();
+
+			break;
 		}
+		case 4: {  // none of the above, head should be a number.
+
+			if (!isLeftComplete) {
+				while (opLevel_Current == 0) {
+					left += inFixExpression.top();
+					inFixExpression.pop();
+					opLevel_Current = check_for_operator_level(inFixExpression.top());
+				}
+				op = inFixExpression.top();
+				inFixExpression.pop();
+			}
+
+			opLevel_Ahead = check_for_operator_level(inFixExpression.top());
+			while (opLevel_Ahead == 0) {
+				right += inFixExpression.top();
+				inFixExpression.pop();
+				opLevel_Ahead = check_for_operator_level(inFixExpression.top());
+			}
+			
 		}
+		if (opLevel_Current > opLevel_Ahead) {
+			left = combine_to_postfix(left, right, op);
+			isLeftComplete = true;
+		}
+		else if (opLevel_Current == opLevel_Ahead) {
+			
+		}
+		}	
 	}
 }
 
@@ -58,22 +89,23 @@ int check_valid_bracket_and_update_bracket_level(char currBracketLevel, char cur
 		if (bracketList[i] == currBracketLevel)	indexCurrBracketLevel = i;
 		if (bracketList[i] == currChar)	indexCurrChar == i;
 	}
-	if (indexCurrBracketLevel != -1) { // If currently in a bracket,
-		if (indexCurrChar != -1) { // If the current char being checked is within bracketList,
-			// return 2 if currChar is an opening bracket and lower level than currBracketLevel.
+	if (indexCurrBracketLevel != -1) {			// If currently in a bracket,
+		if (indexCurrChar != -1) {				// If the current char being checked is within bracketList,
+												// return 2 if currChar is an opening bracket and lower level than currBracketLevel.
 			if (indexCurrChar < 3 && indexCurrBracketLevel < indexCurrChar) return 2; 
-			// return 1 if it is a closing bracket that pairs with currBracketLevel.
+												// return 1 if it is a closing bracket that pairs with currBracketLevel.
 			else if (indexCurrBracketLevel + 3 == indexCurrChar) return 1;
-			else return 0; // return false (0) if none of the above applies.
+			else return 0;						// return false (0) if none of the above applies.
 		}
 	}
-	else { // If currently NOT in a bracket,
-		if (indexCurrChar != -1) { // If currChar is a bracket,
-			if (indexCurrChar < 3) return 3; // If it is an opening bracket, return 3.
-			else return 0; // If it is a closing bracket, return false (0).
-		}
-		else return 4; // if neither currBracketLevel or currChar is in bracketList, return 3.
-	}
+	else {										// If currently NOT in a bracket,
+		if (indexCurrChar != -1) {				// If currChar is a bracket,
+			if (indexCurrChar < 3) return 3;	// If it is an opening bracket, return 3.
+			else return 0;						// If it is a closing bracket, return false (0).
+		}										// if neither currBracketLevel or currChar is in bracketList,
+		else return 4;							// return 4.
+	}											// if all checks fail,
+	return 4;									// return 4
 }
 
 int check_for_operator_level (char currChar) {
@@ -87,7 +119,32 @@ int check_for_operator_level (char currChar) {
 	return 0;
 }
 
-string unpack_stack(Stack<string> numStack, Stack<string> opStack) {
-	string result = "";
+Stack<char> pack_stack(string input) {
+	Stack<char> charStack;
+	int length = input.length();
+
+	for (int i = length-1; i >= 0; i--) {
+		charStack.push(input[i]);
+	}
+}
+
+string combine_to_postfix(string left, string right, char op) {
+	string result = left + " " + right + " " + op;
+	return result;
+}
+
+string combine_to_postfix(Stack<string> numStack, Stack<char> opStack) {
+	string result = "", postFixElement = "";
+	while (opStack.empty()) {
+		postFixElement = numStack.top();
+		numStack.pop();
+		postFixElement += numStack.top();
+		numStack.pop();
+		postFixElement += opStack.top();
+		opStack.pop();
+		numStack.push(postFixElement);
+	}
+	result = numStack.top();
+	numStack.pop();
 	return result;
 }

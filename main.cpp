@@ -4,9 +4,12 @@
 */
 
 #include <iostream>
-#include "inFixToPostFix.h"
+#include "inFixToPostFix.cpp"
+
 
 int main() {
-	convert_infix_to_postfix("2+1*3+(15-33)", false, 'l', 0);
+	string infix = "2+1*3+(15-33)";
+	Stack<char> urNameHere= pack_stack(infix);
+	convert_infix_to_postfix(urNameHere, false, 'l');
 	return 0;
 }

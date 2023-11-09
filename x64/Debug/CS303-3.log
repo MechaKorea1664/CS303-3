@@ -1,0 +1,57 @@
+﻿  main.cpp
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(15,1): error C2955: 'Node': use of class template requires template argument list
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(7): message : see declaration of 'Node'
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(23): message : see reference to class template instantiation 'Stack<T>' being compiled
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(15,2): error C2065: 'eeeeeeeeeeeeeeeee5e346wr5qqtttttttttt336rrrr54e6': undeclared identifier
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(16,2): error C2143: syntax error: missing ';' before 'while'
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(17,86): error C2676: binary '[': 'Stack<char>' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(17,11): error C3861: 'check_valid_bracket_and_update_bracket_level': identifier not found
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(17,90): error C2050: switch expression not integral
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(28,81): error C2661: 'convert_infix_to_postfix': no overloaded function takes 3 arguments
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(29,88): error C2661: 'convert_infix_to_postfix': no overloaded function takes 3 arguments
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(32,35): error C2676: binary '[': 'Stack<char>' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(39,39): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(53,34): error C2062: type 'int' unexpected
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(56,35): error C2065: 'indexCurrChar': undeclared identifier
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(59,7): error C2065: 'indexCurrChar': undeclared identifier
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(61,8): error C2065: 'indexCurrChar': undeclared identifier
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(61,53): error C2065: 'indexCurrChar': undeclared identifier
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(63,42): error C2065: 'indexCurrChar': undeclared identifier
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(68,7): error C2065: 'indexCurrChar': undeclared identifier
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(69,8): error C2065: 'indexCurrChar': undeclared identifier
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(89,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\main.cpp(12,14): error C2513: 'Stack<char>': no variable declared before '='
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\main.cpp(13,27): error C2275: 'Stack<char>': illegal use of this type as an expression
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(6): message : see declaration of 'Stack<char>'
+  inFixToPostFix.cpp
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(15,1): error C2955: 'Node': use of class template requires template argument list
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(7): message : see declaration of 'Node'
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(23): message : see reference to class template instantiation 'Stack<T>' being compiled
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(15,2): error C2065: 'eeeeeeeeeeeeeeeee5e346wr5qqtttttttttt336rrrr54e6': undeclared identifier
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(16,2): error C2143: syntax error: missing ';' before 'while'
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(17,86): error C2676: binary '[': 'Stack<char>' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(17,11): error C3861: 'check_valid_bracket_and_update_bracket_level': identifier not found
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(17,90): error C2050: switch expression not integral
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(28,81): error C2661: 'convert_infix_to_postfix': no overloaded function takes 3 arguments
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(29,88): error C2661: 'convert_infix_to_postfix': no overloaded function takes 3 arguments
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(32,35): error C2676: binary '[': 'Stack<char>' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(39,39): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(53,34): error C2062: type 'int' unexpected
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(56,35): error C2065: 'indexCurrChar': undeclared identifier
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(59,7): error C2065: 'indexCurrChar': undeclared identifier
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(61,8): error C2065: 'indexCurrChar': undeclared identifier
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(61,53): error C2065: 'indexCurrChar': undeclared identifier
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(63,42): error C2065: 'indexCurrChar': undeclared identifier
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(68,7): error C2065: 'indexCurrChar': undeclared identifier
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(69,8): error C2065: 'indexCurrChar': undeclared identifier
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(89,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  inFixToPostFix.h
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(15,1): error C2955: 'Node': use of class template requires template argument list
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(7): message : see declaration of 'Node'
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(23): message : see reference to class template instantiation 'Stack<T>' being compiled
+  stack.cpp
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(15,1): error C2955: 'Node': use of class template requires template argument list
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(7): message : see declaration of 'Node'
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(23): message : see reference to class template instantiation 'Stack<T>' being compiled
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.cpp(51,1): error C2760: syntax error: unexpected token '}', expected ';'
+  Generating Code...
