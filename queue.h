@@ -1,10 +1,5 @@
 #pragma once
-
-template <typename T>
-struct Node {
-	T content;
-	Node<T>* nextptr;
-};
+#include "stack.h"
 
 template <typename T>
 class Queue {
