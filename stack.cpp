@@ -47,7 +47,7 @@ T Stack<T>::top() const {
 
 template <typename T>
 bool Stack<T>::empty() {
-	return (numItems == 0)
+	return (numItems == 0);
 }
 
 template <typename T>

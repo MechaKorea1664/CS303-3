@@ -12,7 +12,7 @@ struct Node {
 template <typename T>
 class Stack {
 private:
-	Node* head = nullptr;
+	Node<T>* head = nullptr;
 	size_t numItems = 0;
 public:
 	void push(T);

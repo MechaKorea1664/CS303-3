@@ -1,57 +1,28 @@
 ﻿  main.cpp
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(15,1): error C2955: 'Node': use of class template requires template argument list
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(7): message : see declaration of 'Node'
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(23): message : see reference to class template instantiation 'Stack<T>' being compiled
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(15,2): error C2065: 'eeeeeeeeeeeeeeeee5e346wr5qqtttttttttt336rrrr54e6': undeclared identifier
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(16,2): error C2143: syntax error: missing ';' before 'while'
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(17,86): error C2676: binary '[': 'Stack<char>' does not define this operator or a conversion to a type acceptable to the predefined operator
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(17,11): error C3861: 'check_valid_bracket_and_update_bracket_level': identifier not found
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(17,90): error C2050: switch expression not integral
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(28,81): error C2661: 'convert_infix_to_postfix': no overloaded function takes 3 arguments
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(29,88): error C2661: 'convert_infix_to_postfix': no overloaded function takes 3 arguments
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(32,35): error C2676: binary '[': 'Stack<char>' does not define this operator or a conversion to a type acceptable to the predefined operator
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(39,39): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(53,34): error C2062: type 'int' unexpected
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(56,35): error C2065: 'indexCurrChar': undeclared identifier
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(59,7): error C2065: 'indexCurrChar': undeclared identifier
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(61,8): error C2065: 'indexCurrChar': undeclared identifier
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(61,53): error C2065: 'indexCurrChar': undeclared identifier
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(63,42): error C2065: 'indexCurrChar': undeclared identifier
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(68,7): error C2065: 'indexCurrChar': undeclared identifier
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(69,8): error C2065: 'indexCurrChar': undeclared identifier
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(89,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\main.cpp(12,14): error C2513: 'Stack<char>': no variable declared before '='
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\main.cpp(13,27): error C2275: 'Stack<char>': illegal use of this type as an expression
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(6): message : see declaration of 'Stack<char>'
-  inFixToPostFix.cpp
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(15,1): error C2955: 'Node': use of class template requires template argument list
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(7): message : see declaration of 'Node'
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(23): message : see reference to class template instantiation 'Stack<T>' being compiled
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(15,2): error C2065: 'eeeeeeeeeeeeeeeee5e346wr5qqtttttttttt336rrrr54e6': undeclared identifier
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(16,2): error C2143: syntax error: missing ';' before 'while'
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(17,86): error C2676: binary '[': 'Stack<char>' does not define this operator or a conversion to a type acceptable to the predefined operator
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(17,11): error C3861: 'check_valid_bracket_and_update_bracket_level': identifier not found
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(17,90): error C2050: switch expression not integral
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(28,81): error C2661: 'convert_infix_to_postfix': no overloaded function takes 3 arguments
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(29,88): error C2661: 'convert_infix_to_postfix': no overloaded function takes 3 arguments
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(32,35): error C2676: binary '[': 'Stack<char>' does not define this operator or a conversion to a type acceptable to the predefined operator
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(39,39): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(53,34): error C2062: type 'int' unexpected
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(56,35): error C2065: 'indexCurrChar': undeclared identifier
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(59,7): error C2065: 'indexCurrChar': undeclared identifier
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(61,8): error C2065: 'indexCurrChar': undeclared identifier
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(61,53): error C2065: 'indexCurrChar': undeclared identifier
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(63,42): error C2065: 'indexCurrChar': undeclared identifier
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(68,7): error C2065: 'indexCurrChar': undeclared identifier
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(69,8): error C2065: 'indexCurrChar': undeclared identifier
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(89,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  inFixToPostFix.h
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(15,1): error C2955: 'Node': use of class template requires template argument list
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(7): message : see declaration of 'Node'
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(23): message : see reference to class template instantiation 'Stack<T>' being compiled
-  stack.cpp
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(15,1): error C2955: 'Node': use of class template requires template argument list
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(7): message : see declaration of 'Node'
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(23): message : see reference to class template instantiation 'Stack<T>' being compiled
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.cpp(51,1): error C2760: syntax error: unexpected token '}', expected ';'
-  Generating Code...
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(8,39): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(25,49): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(59,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(178): warning C4715: 'convert_infix_to_postfix': not all control paths return a value
+inFixToPostFix.obj : error LNK2005: "int __cdecl check_for_operator_level(char)" (?check_for_operator_level@@YAHD@Z) already defined in main.obj
+inFixToPostFix.obj : error LNK2005: "int __cdecl check_valid_bracket_and_update_bracket_level(char,char)" (?check_valid_bracket_and_update_bracket_level@@YAHDD@Z) already defined in main.obj
+inFixToPostFix.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl combine_to_postfix(class Stack<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > &,class Stack<char> &)" (?combine_to_postfix@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV?$Stack@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@AEAV?$Stack@D@@@Z) already defined in main.obj
+inFixToPostFix.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl combine_to_postfix(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,char)" (?combine_to_postfix@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@0D@Z) already defined in main.obj
+inFixToPostFix.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl convert_infix_to_postfix(class Stack<char>,bool,char)" (?convert_infix_to_postfix@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$Stack@D@@_ND@Z) already defined in main.obj
+inFixToPostFix.obj : error LNK2005: "class Stack<char> __cdecl pack_stack(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?pack_stack@@YA?AV?$Stack@D@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in main.obj
+inFixToPostFix.obj : error LNK2005: "void __cdecl remove_spaces_from_string(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)" (?remove_spaces_from_string@@YAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in main.obj
+x64\Debug\inFixToPostFix.obj : warning LNK4042: object specified more than once; extras ignored
+main.obj : error LNK2019: unresolved external symbol "public: void __cdecl Stack<char>::push(char)" (?push@?$Stack@D@@QEAAXD@Z) referenced in function "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl convert_infix_to_postfix(class Stack<char>,bool,char)" (?convert_infix_to_postfix@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$Stack@D@@_ND@Z)
+inFixToPostFix.obj : error LNK2001: unresolved external symbol "public: void __cdecl Stack<char>::push(char)" (?push@?$Stack@D@@QEAAXD@Z)
+main.obj : error LNK2019: unresolved external symbol "public: void __cdecl Stack<char>::pop(void)" (?pop@?$Stack@D@@QEAAXXZ) referenced in function "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl combine_to_postfix(class Stack<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > &,class Stack<char> &)" (?combine_to_postfix@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV?$Stack@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@AEAV?$Stack@D@@@Z)
+inFixToPostFix.obj : error LNK2001: unresolved external symbol "public: void __cdecl Stack<char>::pop(void)" (?pop@?$Stack@D@@QEAAXXZ)
+main.obj : error LNK2019: unresolved external symbol "public: char __cdecl Stack<char>::top(void)const " (?top@?$Stack@D@@QEBADXZ) referenced in function "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl combine_to_postfix(class Stack<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > &,class Stack<char> &)" (?combine_to_postfix@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV?$Stack@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@AEAV?$Stack@D@@@Z)
+inFixToPostFix.obj : error LNK2001: unresolved external symbol "public: char __cdecl Stack<char>::top(void)const " (?top@?$Stack@D@@QEBADXZ)
+main.obj : error LNK2019: unresolved external symbol "public: bool __cdecl Stack<char>::empty(void)" (?empty@?$Stack@D@@QEAA_NXZ) referenced in function "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl combine_to_postfix(class Stack<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > &,class Stack<char> &)" (?combine_to_postfix@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV?$Stack@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@AEAV?$Stack@D@@@Z)
+inFixToPostFix.obj : error LNK2001: unresolved external symbol "public: bool __cdecl Stack<char>::empty(void)" (?empty@?$Stack@D@@QEAA_NXZ)
+main.obj : error LNK2019: unresolved external symbol "public: void __cdecl Stack<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::push(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?push@?$Stack@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl combine_to_postfix(class Stack<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > &,class Stack<char> &)" (?combine_to_postfix@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV?$Stack@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@AEAV?$Stack@D@@@Z)
+inFixToPostFix.obj : error LNK2001: unresolved external symbol "public: void __cdecl Stack<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::push(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?push@?$Stack@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+main.obj : error LNK2019: unresolved external symbol "public: void __cdecl Stack<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::pop(void)" (?pop@?$Stack@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@QEAAXXZ) referenced in function "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl combine_to_postfix(class Stack<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > &,class Stack<char> &)" (?combine_to_postfix@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV?$Stack@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@AEAV?$Stack@D@@@Z)
+inFixToPostFix.obj : error LNK2001: unresolved external symbol "public: void __cdecl Stack<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::pop(void)" (?pop@?$Stack@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@QEAAXXZ)
+main.obj : error LNK2019: unresolved external symbol "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl Stack<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::top(void)const " (?top@?$Stack@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) referenced in function "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl combine_to_postfix(class Stack<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > &,class Stack<char> &)" (?combine_to_postfix@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV?$Stack@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@AEAV?$Stack@D@@@Z)
+inFixToPostFix.obj : error LNK2001: unresolved external symbol "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl Stack<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::top(void)const " (?top@?$Stack@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ)
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\x64\Debug\CS303-3.exe : fatal error LNK1120: 7 unresolved externals
