@@ -140,10 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="inFixToPostFix.cpp" />
     <ClCompile Include="inFixToPostFix.h" />
-    <ClCompile Include="queue.cpp" />
-    <ClCompile Include="stack.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="queue.h" />

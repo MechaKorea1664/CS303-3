@@ -1,11 +1,18 @@
 ﻿  inFixToPostFix.cpp
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(8,39): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(25,49): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(59,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  inFixToPostFix.h
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.h(50,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.h(95,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(38,9): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(32): message : while compiling class template member function 'void Stack<char>::pop(void)'
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.h(113): message : see reference to function template instantiation 'void Stack<char>::pop(void)' being compiled
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.h(11): message : see reference to class template instantiation 'Stack<char>' being compiled
   main.cpp
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\main.cpp(13,2): error C3861: 'remove_spaces_from_string': identifier not found
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\main.cpp(15,26): error C3861: 'pack_stack': identifier not found
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\main.cpp(16,2): error C3861: 'convert_infix_to_postfix': identifier not found
-  stack.cpp
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.h(50,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.h(95,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(38,9): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(32): message : while compiling class template member function 'void Stack<char>::pop(void)'
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.h(113): message : see reference to function template instantiation 'void Stack<char>::pop(void)' being compiled
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.h(11): message : see reference to class template instantiation 'Stack<char>' being compiled
   Generating Code...
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(178): warning C4715: 'convert_infix_to_postfix': not all control paths return a value
+x64\Debug\inFixToPostFix.obj : warning LNK4042: object specified more than once; extras ignored
+  CS303-3.vcxproj -> C:\Users\Kevin Yu\Desktop\CS303\CS303-3\x64\Debug\CS303-3.exe
