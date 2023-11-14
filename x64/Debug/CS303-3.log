@@ -1,18 +1,12 @@
 ﻿  inFixToPostFix.cpp
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(32,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(77,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(38,9): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(32): message : while compiling class template member function 'void Stack<char>::pop(void)'
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.cpp(95): message : see reference to function template instantiation 'void Stack<char>::pop(void)' being compiled
+C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.h(11): message : see reference to class template instantiation 'Stack<char>' being compiled
   inFixToPostFix.h
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.h(50,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.h(95,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(38,9): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(32): message : while compiling class template member function 'void Stack<char>::pop(void)'
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.h(113): message : see reference to function template instantiation 'void Stack<char>::pop(void)' being compiled
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.h(11): message : see reference to class template instantiation 'Stack<char>' being compiled
   main.cpp
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.h(50,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.h(95,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(38,9): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\stack.h(32): message : while compiling class template member function 'void Stack<char>::pop(void)'
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.h(113): message : see reference to function template instantiation 'void Stack<char>::pop(void)' being compiled
-C:\Users\Kevin Yu\Desktop\CS303\CS303-3\inFixToPostFix.h(11): message : see reference to class template instantiation 'Stack<char>' being compiled
   Generating Code...
 x64\Debug\inFixToPostFix.obj : warning LNK4042: object specified more than once; extras ignored
   CS303-3.vcxproj -> C:\Users\Kevin Yu\Desktop\CS303\CS303-3\x64\Debug\CS303-3.exe

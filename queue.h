@@ -20,7 +20,7 @@ public:
 		tail = nullptr;
 	};
 
-	void push(TPLT) {	//Inserts a new element at the rear of the queue.
+	void push(TPLT input) {	//Inserts a new element at the rear of the queue.
 		if (numItems == 0) {
 			head->content = input;
 			head->nextptr = nullptr;
